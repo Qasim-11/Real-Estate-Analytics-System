@@ -8,7 +8,7 @@ logo_url = "https://wetaan.com/assets/img/logo.png"
 st.markdown(
     f"""
     <div style="display: flex; justify-content: space-between; align-items: center;">
-        <h1 style="margin: 0;">لوحة العقار السعودي</h1>
+        <h1 style="margin: 0;">Saudi Real Estate Dashboard</h1>
         <img src="{logo_url}" alt="Logo" style="width: 150px; height: auto;">
     </div>
     """,
