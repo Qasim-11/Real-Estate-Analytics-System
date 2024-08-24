@@ -3,7 +3,7 @@ from streamlit_navigation_bar import st_navbar
 from news import news
 from interface_ar import home_ar
 from interface_en import home_en
-
+from chat import chat
 st.set_page_config(initial_sidebar_state="collapsed", layout="wide")
 
 
@@ -41,19 +41,8 @@ page = st_navbar(pages, styles=styles)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-lang = st.toggle("en", "ar", key="lang")
-lang = "en" if lang else "ar"
+# lang = st.toggle("en", "ar", key="lang")
+lang = "en" # if lang else "ar"
 
 print(lang)
 
@@ -71,6 +60,6 @@ elif page == "News":
     # elif lang == "en":
     #     news_en()
 elif page == "Chatbot":
-    st.title("Coming Soon")
+    chat()
 elif page == "Real-Time Dashboard":
     st.title("Coming Soon")
