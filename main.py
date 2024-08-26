@@ -44,8 +44,6 @@ page = st_navbar(pages, styles=styles)
 # lang = st.toggle("en", "ar", key="lang")
 lang = "en" # if lang else "ar"
 
-print(lang)
-
 
 if page == "Dashboard":
     if lang == "ar":
